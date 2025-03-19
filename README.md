@@ -12,3 +12,6 @@ docker run -it --env-file ./.env -v "$(pwd)/pdf:/app/pdf" -v "$(pwd)/images:/app
 docker run -it --env-file ./.env -v "C:/Users/aswin/Documents/oneNote_AI/pdf:/app/pdf" -v "C:/Users/aswin/Documents/oneNote_AI/images:/app/images" myproject
 
 
+# JJ : 
+docker run -it --env-file ./.env -v "%cd%/pdf:/app/pdf" -v "%cd%/images:/app/images" myproject
+
